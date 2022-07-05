@@ -1,0 +1,144 @@
+body{
+   background-image:url(../img/REFLECTIONS.jpg);
+  
+}
+
+.nav-bg{
+    background-color: #ffffff;
+    color: black;
+    
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.cont-height{
+    height: 150px;
+}
+courses-flex{
+    padding: 3px;
+}
+.flex-Box{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    background-color: cornflowerblue;
+    
+    
+}
+p{
+   font-size: 30px; 
+    
+}
+h4{
+    color: black;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    font-size: 35px;
+    border: 1px solid black;
+    margin: 4px;
+}
+.h5{
+    background-color: black;
+}
+h5{
+    font-weight: 600;
+    
+    color: white;
+   
+    text-align: center;
+    padding: 14px;
+    margin: 8px;
+    font-size: 28px;
+}
+.first, .Second, .Third{
+    
+    width: 35%;
+    color: red;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+   
+}
+.form-section{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  
+}
+
+form input{
+    margin: 10px;
+}
+form{
+    background-color: dodgerblue;
+    padding: 50px;
+    margin: 10px;
+    
+}
+input{
+    background-color: navajowhite;
+    
+    width: 100%;
+  padding: 12px;
+  border: 1px solid red;
+  border-radius: 7px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label{
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 3px;
+}
+select{
+    border: none;
+    padding: 6px;
+    margin: 10px;
+}
+/*
+@media screen and (max-width: 600px) {
+  .form-section{
+    
+      width: auto;
+    
+  }
+    form{
+        left: -50px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .form-section{
+        width: auto;
+    }
+  .form{
+   left: -180px;
+  }
+}*/
+@media screen and (max-width: 600px) {
+  .flex-Box{
+    display: block;
+      width: 100%;
+      color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first,.Second,.Third{
+    display: block;
+      width: auto;
+      color: blue;
+  }
+}
